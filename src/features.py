@@ -32,6 +32,9 @@ def calcular_ian(eventos, termos_busca, geo="US", timeframe="2023-01-01 2026-08-
     """
     from trendspy import Trends
     import pandas as pd
+    import time
+
+    time.sleep(3)
 
     tr = Trends()
     tendencias = tr.interest_over_time(termos_busca, timeframe=timeframe, geo=geo)
@@ -73,6 +76,9 @@ def calcular_ice(eventos, termos_otimistas, termos_pessimistas, geo="BR", timefr
     from statsmodels.tsa.seasonal import STL
     import pandas as pd
     import numpy as np
+    import time
+    
+    time.sleep(3)
 
     tr = Trends()
     cesta_otimista = tr.interest_over_time(termos_otimistas, timeframe=timeframe, geo=geo)
