@@ -1,7 +1,5 @@
 indicador,ativo_alvo,direcao_se_surpresa_positiva,direcao_se_surpresa_negativa
 CPI_EUA,SPY,vender,comprar
-indicador,ativo_alvo,direcao_se_surpresa_positiva,direcao_se_surpresa_negativa
-CPI_EUA,SPY,vender,comprar
 IPCA_BR,EWZ,vender,comprar
 Selic_BR,BRL=X,vender,comprar
 Payroll_EUA,SPY,vender,comprar
